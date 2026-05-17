@@ -1,1 +1,130 @@
-aW1wb3J0IHR5cGUgeyBFeHBvQ29uZmlnIH0gZnJvbSAiZXhwby9jb25maWciOwoKLy8gQnVuZGxlIElEIGZvcm1hdDogc3BhY2UubWFudXMuPHByb2plY3RfbmFtZV9kb3RzPi48dGltZXN0YW1wPgovLyBlLmcuLCAibXktYXBwIiBjcmVhdGVkIGF0IDIwMjQtMDEtMTUgMTA6MzA6NDUgLT4gInNwYWNlLm1hbnVzLm15LmFwcC50MjAyNDAxMTUxMDMwNDUiCi8vIEJ1bmRsZSBJRCBjYW4gb25seSBjb250YWluIGxldHRlcnMsIG51bWJlcnMsIGFuZCBkb3RzCi8vIEFuZHJvaWQgcmVxdWlyZXMgZWFjaCBkb3Qtc2VwYXJhdGVkIHNlZ21lbnQgdG8gc3RhcnQgd2l0aCBhIGxldHRlcgpjb25zdCByYXdCdW5kbGVJZCA9ICJjb20uYXBwLmN1aWRhdHVzcGxhbnRhcyI7CmNvbnN0IGJ1bmRsZUlkID0KICByYXdCdW5kbGVJZAogICAgLnJlcGxhY2UoL1stX10vZywgIi4iKSAvLyBSZXBsYWNlIGh5cGhlbnMvdW5kZXJzY29yZXMgd2l0aCBkb3RzCiAgICAucmVwbGFjZSgvW15hLXpBLVowLTkuXS9nLCAiIikgLy8gUmVtb3ZlIGludmFsaWQgY2hhcnMKICAgIC5yZXBsYWNlKC9cLisvZywgIi4iKSAvLyBDb2xsYXBzZSBjb25zZWN1dGl2ZSBkb3RzCiAgICAucmVwbGFjZSgvXlwuK3xcLiskL2csICIiKSAvLyBUcmltIGxlYWRpbmcvdHJhaWxpbmcgZG90cwogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5zcGxpdCgiLiIpCiAgICAubWFwKChzZWdtZW50KSA9PiB7CiAgICAgIC8vIEFuZHJvaWQgcmVxdWlyZXMgZWFjaCBzZWdtZW50IHRvIHN0YXJ0IHdpdGggYSBsZXR0ZXIKICAgICAgLy8gUHJlZml4IHdpdGggJ3gnIGlmIHNlZ21lbnQgc3RhcnRzIHdpdGggYSBkaWdpdAogICAgICByZXR1cm4gL15bYS16QS1aXS8udGVzdChzZWdtZW50KSA/IHNlZ21lbnQgOiAieCIgKyBzZWdtZW50OwogICAgfSkKICAgIC5qb2luKCIuIikgfHwgInNwYWNlLm1hbnVzLmFwcCI7Ci8vIEV4dHJhY3QgdGltZXN0YW1wIGZyb20gYnVuZGxlIElEIGFuZCBwcmVmaXggd2l0aCAibWFudXMiIGZvciBkZWVwIGxpbmsgc2NoZW1lCi8vIGUuZy4sICJzcGFjZS5tYW51cy5teS5hcHAudDIwMjQwMTE1MTAzMDQ1IiAtPiAibWFudXMyMDI0MDExNTEwMzA0NSIKY29uc3QgdGltZXN0YW1wID0gYnVuZGxlSWQuc3BsaXQoIi4iKS5wb3AoKT8ucmVwbGFjZSgvXnQvLCAiIikgPz8gIiI7CmNvbnN0IHNjaGVtZUZyb21CdW5kbGVJZCA9IGBtYW51cyR7dGltZXN0YW1wfWA7Cgpjb25zdCBlbnYgPSB7CiAgLy8gQXBwIGJyYW5kaW5nIC0gdXBkYXRlIHRoZXNlIHZhbHVlcyBkaXJlY3RseSAoZG8gbm90IHVzZSBlbnYgdmFycykKICBhcHBOYW1lOiAiQ3VpZGEgdHVzIHBsYW50YXMiLAogIGFwcFNsdWc6ICJjdWlkYS10dXMtcGxhbnRhcyIsCiAgbG9nb1VybDogImh0dHBzOi8vZDJ4c3hwaDhrcHhqMGYuY2xvdWRmcm9udC5uZXQvMzEwNTE5NjYzNjU0MzE4NzcwL2lCZng1M0hSeFhXRzV5a1BpeEF6RE4vaWNvbi1RbVcyQjgzRG9xQ0s4WmdadU1lNUxBRS5wbmciLAogIHNjaGVtZTogc2NoZW1lRnJvbUJ1bmRsZUlkLAogIGlvc0J1bmRsZUlkOiBidW5kbGVJZCwKICBhbmRyb2lkUGFja2FnZTogYnVuZGxlSWQsCn07Cgpjb25zdCBjb25maWc6IEV4cG9Db25maWcgPSB7CiAgbmFtZTogZW52LmFwcE5hbWUsCiAgc2x1ZzogZW52LmFwcFNsdWcsCiAgdmVyc2lvbjogIjEuMC4wIiwKICBvcmllbnRhdGlvbjogInBvcnRyYWl0IiwKICBpY29uOiAiLi9hc3NldHMvaW1hZ2VzL2ljb24ucG5nIiwKICBzY2hlbWU6IGVudi5zY2hlbWUsCiAgdXNlckludGVyZmFjZVN0eWxlOiAiYXV0b21hdGljIiwKICBuZXdBcmNoRW5hYmxlZDogdHJ1ZSwKICBydW50aW1lVmVyc2lvbjogIjEuMC4wIiwKICBpb3M6IHsKICAgIHN1cHBvcnRzVGFibGV0OiB0cnVlLAogICAgYnVuZGxlSWRlbnRpZmllcjogZW52Lmlvc0J1bmRsZUlkLAogICAgImluZm9QbGlzdCI6IHsKICAgICAgICAiSVRTQXBwVXNlc05vbkV4ZW1wdEVuY3J5cHRpb24iOiBmYWxzZQogICAgICB9CiAgfSwKICBhbmRyb2lkOiB7CiAgICBhZGFwdGl2ZUljb246IHsKICAgICAgYmFja2dyb3VuZENvbG9yOiAiI0U2RjRGRSIsCiAgICAgIGZvcmVncm91bmRJbWFnZTogIi4vYXNzZXRzL2ltYWdlcy9hbmRyb2lkLWljb24tZm9yZWdyb3VuZC5wbmciLAogICAgICBiYWNrZ3JvdW5kSW1hZ2U6ICIuL2Fzc2V0cy9pbWFnZXMvYW5kcm9pZC1pY29uLWJhY2tncm91bmQucG5nIiwKICAgICAgbW9ub2Nocm9tZUltYWdlOiAiLi9hc3NldHMvaW1hZ2VzL2FuZHJvaWQtaWNvbi1tb25vY2hyb21lLnBuZyIsCiAgICB9LAogICAgZWRnZVRvRWRnZUVuYWJsZWQ6IHRydWUsCiAgICBwcmVkaWN0aXZlQmFja0dlc3R1cmVFbmFibGVkOiBmYWxzZSwKICAgIHBhY2thZ2U6IGVudi5hbmRyb2lkUGFja2FnZSwKICAgIHZlcnNpb25Db2RlOiAxLAogICAgcGVybWlzc2lvbnM6IFsiUE9TVF9OT1RJRklDQVRJT05TIl0sCiAgICBpbnRlbnRGaWx0ZXJzOiBbCiAgICAgIHsKICAgICAgICBhY3Rpb246ICJWSUVXIiwKICAgICAgICBhdXRvVmVyaWZ5OiB0cnVlLAogICAgICAgIGRhdGE6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgc2NoZW1lOiBlbnYuc2NoZW1lLAogICAgICAgICAgICBob3N0OiAiKiIsCiAgICAgICAgICB9LAogICAgICAgIF0sCiAgICAgICAgY2F0ZWdvcnk6IFsiQlJPV1NBQkxFIiwgIkRFRkFVTFQiXSwKICAgICAgfSwKICAgIF0sCgogIH0sCiAgd2ViOiB7CiAgICidW5kbGVyOiAibWV0cm8iLAogICAgb3V0cHV0OiAic3RhdGljIiwKICAgIGZhdmljb246ICIuL2Fzc2V0cy9pbWFnZXMvZmF2aWNvbi5wbmciLAogICAgaXNXZWJPbmx5OiBmYWxzZSwKICB9LAogIHBsdWdpbnM6IFsKICAgICJleHBvLXJvdXRlciIsCiAgICBbCiAgICAgICJleHBvLWF1ZGlvIiwKICAgICAgewogICAgICAgIG1pY3JvcGhvbmVQZXJtaXNzaW9uOiAiQWxsb3cgJChQUk9EVUNUX05BTUUpIHRvIGFjY2VzcyB5b3VyIG1pY3JvcGhvbmUuIiwKICAgICAgfSwKICAgIF0sCiAgICBbCiAgICAgICJleHBvLXZpZGVvIiwKICAgICAgewogICAgICAgIHN1cHBvcnRzQmFja2dyb3VuZFBsYXliYWNrOiB0cnVlLAogICAgICAgIHN1cHBvcnRzUGljdHVyZUluUGljdHVyZTogdHJ1ZSwKICAgICAgfSwKICAgIF0sCiAgICBbCiAgICAgICJleHBvLXNwbGFzaC1zY3JlZW4iLAogICAgICB7CiAgICAgICAgaW1hZ2U6ICIuL2Fzc2V0cy9pbWFnZXMvc3BsYXNoLWljb24ucG5nIiwKICAgICAgICBpbWFnZVdpZHRoOiAyMDAsCiAgICAgICAgcmVzaXplTW9kZTogImNvbnRhaW4iLAogICAgICAgIGJhY2tncm91bmRDb2xvcjogIiNmZmZmZmYiLAogICAgICAgIGRhcms6IHsKICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogIiMwMDAwMDAiLAogICAgICAgIH0sCiAgICAgIH0sCiAgICBdLAogICAgWwogICAgICAiZXhwby1idWlsZC1wcm9wZXJ0aWVzIiwKICAgICAgewogICAgICAgIGFuZHJvaWQ6IHsKICAgICAgICAgIGJ1aWxkQXJjaHM6IFsiYXJtZWFiaS12N2EiLCAiYXJtNjQtdjhhIl0sCiAgICAgICAgICBtaW5TZGtWZXJzaW9uOiAyNCwKICAgICAgICB9LAogICAgICB9LAogICAgXSwKICBdLAogIGV4cGVyaW1lbnRzOiB7CiAgICB0eXBlZFJvdXRlczogdHJ1ZSwKICAgIHJlYWN0Q29tcGlsZXI6IHRydWUsCiAgfSwKfTsKCmV4cG9ydCBkZWZhdWx0IGNvbmZpZzsK
+import type { ExpoConfig } from "expo/config";
+
+// Bundle ID format: space.manus.<project_name_dots>.<timestamp>
+// e.g., "my-app" created at 2024-01-15 10:30:45 -> "space.manus.my.app.t20240115103045"
+// Bundle ID can only contain letters, numbers, and dots
+// Android requires each dot-separated segment to start with a letter
+const rawBundleId = "com.app.cuidatusplantas";
+const bundleId =
+  rawBundleId
+    .replace(/[-_]/g, ".") // Replace hyphens/underscores with dots
+    .replace(/[^a-zA-Z0-9.]/g, "") // Remove invalid chars
+    .replace(/\.+/g, ".") // Collapse consecutive dots
+    .replace(/^\.+|\.+$/g, "") // Trim leading/trailing dots
+    .toLowerCase()
+    .split(".")
+    .map((segment) => {
+      // Android requires each segment to start with a letter
+      // Prefix with 'x' if segment starts with a digit
+      return /^[a-zA-Z]/.test(segment) ? segment : "x" + segment;
+    })
+    .join(".") || "space.manus.app";
+// Extract timestamp from bundle ID and prefix with "manus" for deep link scheme
+// e.g., "space.manus.my.app.t20240115103045" -> "manus20240115103045"
+const timestamp = bundleId.split(".").pop()?.replace(/^t/, "") ?? "";
+const schemeFromBundleId = `manus${timestamp}`;
+
+const env = {
+  // App branding - update these values directly (do not use env vars)
+  appName: "Cuida tus plantas",
+  appSlug: "cuida-tus-plantas",
+  logoUrl: "https://d2xswph8kpxj0f.cloudfront.net/310519663654318770/iBfx53HRxXWG5ykPixAzDN/icon-QmW2B83DoqCK8ZgZuMe5LAE.png",
+  scheme: schemeFromBundleId,
+  iosBundleId: bundleId,
+  androidPackage: bundleId,
+};
+
+const config: ExpoConfig = {
+  name: env.appName,
+  slug: env.appSlug,
+  version: "1.0.0",
+  orientation: "portrait",
+  icon: "./assets/images/icon.png",
+  scheme: env.scheme,
+  userInterfaceStyle: "automatic",
+  newArchEnabled: true,
+  runtimeVersion: "1.0.0",
+  ios: {
+    supportsTablet: true,
+    bundleIdentifier: env.iosBundleId,
+    "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+  },
+  android: {
+    adaptiveIcon: {
+      backgroundColor: "#E6F4FE",
+      foregroundImage: "./assets/images/android-icon-foreground.png",
+      backgroundImage: "./assets/images/android-icon-background.png",
+      monochromeImage: "./assets/images/android-icon-monochrome.png",
+    },
+    edgeToEdgeEnabled: true,
+    predictiveBackGestureEnabled: false,
+    package: env.androidPackage,
+    versionCode: 1,
+    permissions: ["POST_NOTIFICATIONS"],
+    intentFilters: [
+      {
+        action: "VIEW",
+        autoVerify: true,
+        data: [
+          {
+            scheme: env.scheme,
+            host: "*",
+          }
+        ],
+        category: ["BROWSABLE", "DEFAULT"],
+      },
+    ],
+
+  },
+  web: {
+    bundler: "metro",
+    output: "static",
+    favicon: "./assets/images/favicon.png",
+    isWebOnly: false,
+  },
+  plugins: [
+    "expo-router",
+    [
+      "expo-audio",
+      {
+        microphonePermission: "Allow $(PRODUCT_NAME) to access your microphone.",
+      },
+    ],
+    [
+      "expo-video",
+      {
+        supportsBackgroundPlayback: true,
+        supportsPictureInPicture: true,
+      },
+    ],
+    [
+      "expo-splash-screen",
+      {
+        image: "./assets/images/splash-icon.png",
+        imageWidth: 200,
+        resizeMode: "contain",
+        backgroundColor: "#ffffff",
+        dark: {
+          backgroundColor: "#000000",
+        },
+      },
+    ],
+    [
+      "expo-build-properties",
+      {
+        android: {
+          buildArchs: ["armeabi-v7a", "arm64-v8a"],
+          minSdkVersion: 24,
+        },
+      },
+    ],
+  ],
+  experiments: {
+    typedRoutes: true,
+    reactCompiler: true,
+  },
+};
+
+export default config;
