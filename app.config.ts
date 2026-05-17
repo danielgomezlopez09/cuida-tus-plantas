@@ -1,36 +1,37 @@
+// Load environment variables with proper priority (system > .env)
+import "./scripts/load-env.js";
 import type { ExpoConfig } from "expo/config";
 
-const rawBundleId = "com.app.cuidatusplantas";
-const bundleId =
-  rawBundleId
-    .replace(/[-_]/g, ".")
-    .replace(/[^a-zA-Z0-9.]/g, "")
-    .replace(/\.+/g, ".")
-    .replace(/^\.+|\.+$/g, "")
-    .toLowerCase()
-    .split(".")
-    .map((segment) => {
-      return /^[a-zA-Z]/.test(segment) ? segment : "x" + segment;
-    })
-    .join(".") || "com.app.cuidatusplantas";
+// Bundle ID format: com.app.cuidatusplantas
+const bundleId = "com.app.cuidatusplantas";
+const scheme = "cuidatusplantas";
+
+const env = {
+  // App branding
+  appName: "Cuida tus plantas",
+  appSlug: "cuida-tus-plantas",
+  logoUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663654318770/iBfx53HRxXWG5ykPixAzDn/icon-QmW2B83DoqCK8ZgZMe5LAE.png",
+  scheme: scheme,
+  iosBundleId: bundleId,
+  androidPackage: bundleId,
+};
 
 const config: ExpoConfig = {
-  name: "Cuida tus plantas",
-  slug: "cuida-tus-plantas",
-  owner: "danielgomezlopez09",
+  name: env.appName,
+  slug: env.appSlug,
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
-  scheme: "cuidatusplantas",
+  scheme: env.scheme,
   userInterfaceStyle: "automatic",
-  newArchEnabled: true,
+  newArchEnabled: false,
   runtimeVersion: "1.0.0",
   ios: {
     supportsTablet: true,
-    bundleIdentifier: bundleId,
-    "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+    bundleIdentifier: env.iosBundleId,
+    infoPlist: {
+      ITSAppUsesNonExemptEncryption: false,
+    },
   },
   android: {
     adaptiveIcon: {
@@ -41,7 +42,7 @@ const config: ExpoConfig = {
     },
     edgeToEdgeEnabled: true,
     predictiveBackGestureEnabled: false,
-    package: bundleId,
+    package: env.androidPackage,
     versionCode: 1,
     permissions: ["POST_NOTIFICATIONS"],
     intentFilters: [
@@ -50,20 +51,18 @@ const config: ExpoConfig = {
         autoVerify: true,
         data: [
           {
-            scheme: "cuidatusplantas",
+            scheme: env.scheme,
             host: "*",
-          }
+          },
         ],
         category: ["BROWSABLE", "DEFAULT"],
       },
     ],
-
   },
   web: {
     bundler: "metro",
     output: "static",
     favicon: "./assets/images/favicon.png",
-    isWebOnly: false,
   },
   plugins: [
     "expo-router",
@@ -104,13 +103,8 @@ const config: ExpoConfig = {
   ],
   experiments: {
     typedRoutes: true,
-    reactCompiler: true,
+    reactCompiler: false,
   },
-  extra: {
-    eas: {
-      projectId: "6b28301e-320b-41f1-a825-806ee7f41f8b"
-    }
-  }
 };
 
 export default config;
