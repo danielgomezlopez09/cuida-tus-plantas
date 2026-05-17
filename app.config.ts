@@ -1,37 +1,16 @@
-// Load environment variables with proper priority (system > .env)
-import "./scripts/load-env.js";
 import type { ExpoConfig } from "expo/config";
 
-// Bundle ID format: com.app.cuidatusplantas
-const bundleId = "com.app.cuidatusplantas";
-const scheme = "cuidatusplantas";
-
-const env = {
-  // App branding
-  appName: "Cuida tus plantas",
-  appSlug: "cuida-tus-plantas",
-  logoUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663654318770/iBfx53HRxXWG5ykPixAzDn/icon-QmW2B83DoqCK8ZgZMe5LAE.png",
-  scheme: scheme,
-  iosBundleId: bundleId,
-  androidPackage: bundleId,
-};
-
 const config: ExpoConfig = {
-  name: env.appName,
-  slug: env.appSlug,
+  name: "Cuida tus plantas",
+  slug: "cuida-tus-plantas",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
-  scheme: env.scheme,
+  scheme: "cuidatusplantas",
   userInterfaceStyle: "automatic",
-  newArchEnabled: false,
-  runtimeVersion: "1.0.0",
   ios: {
     supportsTablet: true,
-    bundleIdentifier: env.iosBundleId,
-    infoPlist: {
-      ITSAppUsesNonExemptEncryption: false,
-    },
+    bundleIdentifier: "com.app.cuidatusplantas",
   },
   android: {
     adaptiveIcon: {
@@ -40,24 +19,9 @@ const config: ExpoConfig = {
       backgroundImage: "./assets/images/android-icon-background.png",
       monochromeImage: "./assets/images/android-icon-monochrome.png",
     },
-    edgeToEdgeEnabled: true,
-    predictiveBackGestureEnabled: false,
-    package: env.androidPackage,
+    package: "com.app.cuidatusplantas",
     versionCode: 1,
     permissions: ["POST_NOTIFICATIONS"],
-    intentFilters: [
-      {
-        action: "VIEW",
-        autoVerify: true,
-        data: [
-          {
-            scheme: env.scheme,
-            host: "*",
-          },
-        ],
-        category: ["BROWSABLE", "DEFAULT"],
-      },
-    ],
   },
   web: {
     bundler: "metro",
@@ -73,22 +37,12 @@ const config: ExpoConfig = {
       },
     ],
     [
-      "expo-video",
-      {
-        supportsBackgroundPlayback: true,
-        supportsPictureInPicture: true,
-      },
-    ],
-    [
       "expo-splash-screen",
       {
         image: "./assets/images/splash-icon.png",
         imageWidth: 200,
         resizeMode: "contain",
         backgroundColor: "#ffffff",
-        dark: {
-          backgroundColor: "#000000",
-        },
       },
     ],
     [
@@ -101,10 +55,6 @@ const config: ExpoConfig = {
       },
     ],
   ],
-  experiments: {
-    typedRoutes: true,
-    reactCompiler: false,
-  },
 };
 
 export default config;
