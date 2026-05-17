@@ -9,27 +9,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: ğŸ•Ÿ Checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: ğŸ–² Setup pnpm
-        uses: pnpm/action-setup@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
           version: 9
 
-      - name: ğŸeŸ Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: ğŸeŸ Setup EAS
+      - name: Setup EAS
         uses: expo/expo-github-action@v8
         with:
           eas-version: latest
-          token: "${ { secrets.EXPO_TOKEN } }"
+          token: ${ { secrets.EXPO_TOKEN } }
 
-      - name: ğŸš‘ Install dependencies
+      - name: Install dependencies
         run: pnpm install
 
-      - name: ğŸ–­ Build APK
+      - name: Build APK
         run: eas build --platform android --profile production --non-interactive
