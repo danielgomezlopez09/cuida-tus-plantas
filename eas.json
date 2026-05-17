@@ -1,29 +1,10 @@
-{
-  "cli": {
-    "version": ">= 5.0.0"
-  },
-  "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
-    "preview": {
-      "android": {
-        "buildType": "apk"
-      }
-    },
-    "production": {
-      "android": {
-        "buildType": "apk"
-      }
-    }
-  },
-  "submit": {
-    "production": {
-      "android": {
-        "serviceAccount": "path/to/service-account.json",
-        "track": "internal"
-      }
-    }
-  }
-}
+ewogICJjbGkiOiB7CiAgICAidmVyc2lvbiI6ICI+PSA1LjAuMCIKICB9LAog
+ICJidWlsZCI6IHsKICAgICJkZXZlbG9wbWVudCI6IHsKICAgICAgImRldmVs
+b3BtZW50Q2xpZW50IjogdHJ1ZSwKICAgICAgImRpc3RyaWJ1dGlvbiI6ICJp
+bnRlcm5hbCIKICAgIH0sCiAgICAicHJldmlldyI6IHsKICAgICAgImFuZHJv
+aWQiOiB7CiAgICAgICAgImJ1aWxkVHlwZSI6ICJhcGsiCiAgICAgIH0KICAg
+IH0sCiAgICAicHJvZHVjdGlvbiI6IHsKICAgICAgImFuZHJvaWQiOiB7CiAg
+ICAgICAgImJ1aWxkVHlwZSI6ICJhcGsiCiAgICAgIH0KICAgIH0KICB9LAog
+ICJzdWJtaXQiOiB7CiAgICAicHJvZHVjdGlvbiI6IHsKICAgICAgImFuZHJv
+aWQiOiB7CiAgICAgICAgInRyYWNrIjogImludGVybmFsIgogICAgICB9CiAg
+ICB9CiAgfQp9Cg==
