@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1,
+    "name": "Monstera Deliciosa",
+    "commonNames": ["Costilla de Adán", "Monstruo Delicioso"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta tropical de hojas grandes y perforadas. Perfecta para espacios amplios.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego cada 1-2 semanas cuando el sustrato está seco",
+      "temperature": "18-27°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato drenante rico en materia orgánica",
+      "frequency": "Primavera-Verano: cada 7-10 días; Otoño-Invierno: cada 14-21 días"
+    },
+    "propagation": "Por esquejes de tallo en agua o sustrato húmedo",
+    "pests": ["Ácaros", "Cochinillas", "Trips"],
+    "diseases": ["Pudrición de raíces", "Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem", "Alcohol isopropílico"],
+      "chemical": ["Acaricida", "Insecticida sistémico"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas en primavera-verano",
+      "natural": ["Compost", "Humus de lombriz", "Té de plátano"]
+    },
+    "pruning": "Poda en primavera para controlar tamaño",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 2,
+    "name": "Pothos",
+    "commonNames": ["Epipremnum", "Planta del Dinero", "Hiedra del Diablo"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Trepadora vigorosa con hojas en forma de corazón. Muy resistente.",
+    "care": {
+      "light": "Luz indirecta, tolera sombra parcial",
+      "water": "Riego cuando el sustrato está seco al tacto",
+      "temperature": "18-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato universal bien drenado",
+      "frequency": "Cada 7-10 días en primavera-verano"
+    },
+    "propagation": "Muy fácil por esquejes en agua",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Acaricida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost", "Agua de arroz"]
+    },
+    "pruning": "Poda regular para mantener forma",
+    "season": "Todo el año",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 3,
+    "name": "Calathea",
+    "commonNames": ["Planta de Oración", "Pavo Real"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta con hojas decorativas que se cierran por la noche.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Mantener sustrato húmedo pero no encharcado",
+      "temperature": "18-24°C",
+      "humidity": "70-90%",
+      "soil": "Sustrato ácido y drenante",
+      "frequency": "Riego regular, mantener humedad"
+    },
+    "propagation": "División de rizomas",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Manchas foliares", "Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua destilada", "Neem"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 20-20-20",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Humus"]
+    },
+    "pruning": "Remover hojas muertas",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 4,
+    "name": "Palmera Areca",
+    "commonNames": ["Areca", "Palma Dorada"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Palmera elegante que purifica el aire. Crece hasta 2 metros.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego regular, mantener sustrato húmedo",
+      "temperature": "18-24°C",
+      "humidity": "50-60%",
+      "soil": "Sustrato drenante para palmeras",
+      "frequency": "Cada 5-7 días"
+    },
+    "propagation": "Por semillas",
+    "pests": ["Ácaros", "Cochinillas", "Trips"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Acaricida"]
+    },
+    "fertilizer": {
+      "type": "NPK 12-4-8",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Humus"]
+    },
+    "pruning": "Remover hojas amarillas",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 5,
+    "name": "Helecho Boston",
+    "commonNames": ["Helecho", "Nephrolepis"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Helecho delicado con frondas plumosas. Perfecto para baños.",
+    "care": {
+      "light": "Luz indirecta",
+      "water": "Mantener sustrato siempre húmedo",
+      "temperature": "15-21°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato ácido y poroso",
+      "frequency": "Riego diario o cada 2 días"
+    },
+    "propagation": "Estolones o división",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover frondas muertas",
+    "season": "Todo el año",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 6,
+    "name": "Limonero",
+    "commonNames": ["Limón", "Citrus limon"],
+    "type": "frutal",
+    "category": "cítrico",
+    "description": "Árbol frutal que produce limones. Ideal para maceta en terraza.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego regular, evitar encharcamiento",
+      "temperature": "15-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato drenante para cítricos",
+      "frequency": "Cada 3-5 días"
+    },
+    "propagation": "Por esquejes o semillas",
+    "pests": ["Pulgones", "Cochinillas", "Mosca blanca"],
+    "diseases": ["Gomosis", "Antracnosis"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem", "Aceite de neem"],
+      "chemical": ["Insecticida sistémico", "Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas en crecimiento",
+      "natural": ["Compost", "Estiércol", "Ceniza"]
+    },
+    "pruning": "Poda en invierno para forma",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 7,
+    "name": "Naranjo",
+    "commonNames": ["Naranja", "Citrus sinensis"],
+    "type": "frutal",
+    "category": "cítrico",
+    "description": "Árbol frutal que produce naranjas dulces. Muy productivo.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego regular pero no excesivo",
+      "temperature": "15-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato bien drenado",
+      "frequency": "Cada 3-5 días"
+    },
+    "propagation": "Por injerto o esquejes",
+    "pests": ["Pulgones", "Cochinillas", "Ácaros"],
+    "diseases": ["Gomosis", "Sarna"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Insecticida", "Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 8-8-8",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Humus"]
+    },
+    "pruning": "Poda ligera en invierno",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 8,
+    "name": "Manzano",
+    "commonNames": ["Manzana", "Malus domestica"],
+    "type": "frutal",
+    "category": "pomáceo",
+    "description": "Árbol frutal que produce manzanas. Requiere frío invernal.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego regular en crecimiento",
+      "temperature": "5-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato bien drenado",
+      "frequency": "Cada 3-5 días"
+    },
+    "propagation": "Por injerto",
+    "pests": ["Pulgones", "Gusanos", "Ácaros"],
+    "diseases": ["Mildiu", "Oídio"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Azufre"],
+      "chemical": ["Fungicida", "Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost", "Estiércol"]
+    },
+    "pruning": "Poda en invierno",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 9,
+    "name": "Guayaba",
+    "commonNames": ["Guayabo", "Psidium guajava"],
+    "type": "frutal",
+    "category": "tropical",
+    "description": "Árbol frutal tropical que produce guayabas. Muy resistente.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego moderado, tolera sequía",
+      "temperature": "20-30°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato drenante",
+      "frequency": "Cada 5-7 días"
+    },
+    "propagation": "Por semillas o esquejes",
+    "pests": ["Moscas de la fruta", "Cochinillas"],
+    "diseases": ["Antracnosis"],
+    "pestControl": {
+      "natural": ["Trampa de moscas", "Neem"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Poda para forma",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 10,
+    "name": "Rosa",
+    "commonNames": ["Rosa de jardín", "Rosa roja"],
+    "type": "floral",
+    "category": "flor",
+    "description": "Flor clásica y elegante. Disponible en muchos colores.",
+    "care": {
+      "light": "Luz solar directa 6 horas",
+      "water": "Riego regular, mantener base húmeda",
+      "temperature": "15-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato rico en materia orgánica",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por esquejes leñosos",
+    "pests": ["Pulgones", "Ácaros", "Trips"],
+    "diseases": ["Oídio", "Mildiu", "Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Azufre", "Neem"],
+      "chemical": ["Fungicida", "Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-15-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Humus"]
+    },
+    "pruning": "Poda regular para más flores",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 11,
+    "name": "Lavanda",
+    "commonNames": ["Lavanda Angustifolia", "Espliego"],
+    "type": "aromática",
+    "category": "aromática",
+    "description": "Planta aromática con flores moradas. Perfecto aroma.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego moderado, tolera sequía",
+      "temperature": "15-25°C",
+      "humidity": "30-50%",
+      "soil": "Sustrato bien drenado, pobre",
+      "frequency": "Cada 7-10 días"
+    },
+    "propagation": "Por semillas o esquejes",
+    "pests": ["Polillas"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 5-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost ligero"]
+    },
+    "pruning": "Poda después de floración",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 12,
+    "name": "Hortensia",
+    "commonNames": ["Hydrangea", "Flor de Hortensia"],
+    "type": "floral",
+    "category": "flor",
+    "description": "Arbusto con flores grandes en racimos. Muy vistoso.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego regular, mantener húmedo",
+      "temperature": "15-21°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato ácido",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por esquejes herbáceos",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Oídio", "Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Humus"]
+    },
+    "pruning": "Poda después de floración",
+    "season": "Primavera-Verano",
+    "toxicity": "Ligeramente tóxica"
+  },
+  {
+    "id": 13,
+    "name": "Albahaca",
+    "commonNames": ["Basílico", "Ocimum basilicum"],
+    "type": "aromática",
+    "category": "hierba",
+    "description": "Hierba aromática para cocina. Sabor intenso.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego regular, mantener húmedo",
+      "temperature": "18-27°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato fértil y drenante",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por semillas",
+    "pests": ["Pulgones", "Trips"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Cosecha regular de hojas",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 14,
+    "name": "Menta",
+    "commonNames": ["Menta piperita", "Mentha"],
+    "type": "aromática",
+    "category": "hierba",
+    "description": "Hierba aromática refrescante. Muy vigorosa.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego regular, mantener húmedo",
+      "temperature": "15-25°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato fértil",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por esquejes o división",
+    "pests": ["Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Cosecha regular",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 15,
+    "name": "Tomate",
+    "commonNames": ["Solanum lycopersicum", "Tomatera"],
+    "type": "hortaliza",
+    "category": "verdura",
+    "description": "Hortaliza de fruto rojo. Muy productiva.",
+    "care": {
+      "light": "Luz solar directa 6-8 horas",
+      "water": "Riego regular, evitar mojar hojas",
+      "temperature": "18-27°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato fértil y drenante",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por semillas",
+    "pests": ["Pulgones", "Gusanos", "Mosca blanca"],
+    "diseases": ["Tizón tardío", "Mildiu"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem", "Bacillus"],
+      "chemical": ["Insecticida", "Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-20-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost", "Estiércol"]
+    },
+    "pruning": "Desbrote y poda",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 16,
+    "name": "Sansevieria Laurentii",
+    "commonNames": ["Lengua de Suegra", "Espada de San Jorge"],
+    "type": "suculenta",
+    "category": "suculenta",
+    "description": "Suculenta resistente con hojas variegadas. Muy fácil.",
+    "care": {
+      "light": "Luz indirecta, tolera sombra",
+      "water": "Riego esporádico, dejar secar entre riegos",
+      "temperature": "18-27°C",
+      "humidity": "30-50%",
+      "soil": "Sustrato muy drenante",
+      "frequency": "Cada 2-3 semanas"
+    },
+    "propagation": "División de rizomas",
+    "pests": ["Cochinillas"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Alcohol isopropílico"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 2-7-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost ligero"]
+    },
+    "pruning": "Remover hojas muertas",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 17,
+    "name": "Cactus Saguaro",
+    "commonNames": ["Carnegia gigantea"],
+    "type": "suculenta",
+    "category": "cactus",
+    "description": "Cactus grande y majestuoso. Crece lentamente.",
+    "care": {
+      "light": "Luz solar directa",
+      "water": "Riego muy esporádico",
+      "temperature": "15-30°C",
+      "humidity": "20-40%",
+      "soil": "Sustrato arenoso muy drenante",
+      "frequency": "Cada 4-6 semanas"
+    },
+    "propagation": "Por semillas",
+    "pests": ["Cochinillas"],
+    "diseases": ["Pudrición"],
+    "pestControl": {
+      "natural": ["Alcohol"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 2-7-10",
+      "frequency": "Cada 8-12 semanas",
+      "natural": ["Compost muy ligero"]
+    },
+    "pruning": "Mínima",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 18,
+    "name": "Orquídea Phalaenopsis",
+    "commonNames": ["Orquídea Mariposa"],
+    "type": "floral",
+    "category": "flor",
+    "description": "Orquídea elegante con flores duraderas.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego 1-2 veces por semana",
+      "temperature": "18-27°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato especial para orquídeas",
+      "frequency": "Riego moderado"
+    },
+    "propagation": "Por keikis o división",
+    "pests": ["Cochinillas", "Ácaros"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 20-20-20",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost especial"]
+    },
+    "pruning": "Remover flores marchitas",
+    "season": "Todo el año",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 19,
+    "name": "Ficus Lyrata",
+    "commonNames": ["Hoja de Violín", "Ficus"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta grande con hojas grandes y vistosas.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego cuando sustrato está seco",
+      "temperature": "18-27°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato drenante",
+      "frequency": "Cada 7-10 días"
+    },
+    "propagation": "Por esquejes",
+    "pests": ["Cochinillas", "Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Poda para forma",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 20,
+    "name": "Bambú",
+    "commonNames": ["Bambusa", "Phyllostachys"],
+    "type": "arbustal",
+    "category": "bambú",
+    "description": "Planta de rápido crecimiento. Elegante y exótica.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego regular, mantener húmedo",
+      "temperature": "15-25°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato fértil",
+      "frequency": "Cada 3-5 días"
+    },
+    "propagation": "Por división de rizomas",
+    "pests": ["Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Poda para control",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 21,
+    "name": "Suculenta Echeveria",
+    "commonNames": ["Rosa de Piedra", "Echeveria elegans"],
+    "type": "suculenta",
+    "category": "suculenta",
+    "description": "Suculenta pequeña con forma de rosa. Muy decorativa.",
+    "care": {
+      "light": "Luz solar directa",
+      "water": "Riego esporádico",
+      "temperature": "15-27°C",
+      "humidity": "20-40%",
+      "soil": "Sustrato muy drenante",
+      "frequency": "Cada 2-3 semanas"
+    },
+    "propagation": "Por hojas o división",
+    "pests": ["Cochinillas"],
+    "diseases": ["Pudrición"],
+    "pestControl": {
+      "natural": ["Alcohol"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 2-7-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost ligero"]
+    },
+    "pruning": "Mínima",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 22,
+    "name": "Peperomia",
+    "commonNames": ["Peperomia obtusifolia"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta pequeña y compacta. Perfecta para escritorios.",
+    "care": {
+      "light": "Luz indirecta",
+      "water": "Riego moderado",
+      "temperature": "18-24°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato drenante",
+      "frequency": "Cada 7-10 días"
+    },
+    "propagation": "Por esquejes de hoja",
+    "pests": ["Ácaros"],
+    "diseases": ["Pudrición de raíces"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover hojas muertas",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 23,
+    "name": "Dracaena Marginata",
+    "commonNames": ["Árbol del Dragón", "Dracaena"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta con hojas rojas y verdes. Muy elegante.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Riego cuando sustrato está seco",
+      "temperature": "18-27°C",
+      "humidity": "40-60%",
+      "soil": "Sustrato drenante",
+      "frequency": "Cada 7-10 días"
+    },
+    "propagation": "Por esquejes",
+    "pests": ["Cochinillas", "Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Poda para forma",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 24,
+    "name": "Espada de San Jorge",
+    "commonNames": ["Sansevieria trifasciata"],
+    "type": "suculenta",
+    "category": "suculenta",
+    "description": "Suculenta resistente. Purifica el aire.",
+    "care": {
+      "light": "Luz indirecta, tolera sombra",
+      "water": "Riego esporádico",
+      "temperature": "18-27°C",
+      "humidity": "30-50%",
+      "soil": "Sustrato muy drenante",
+      "frequency": "Cada 3-4 semanas"
+    },
+    "propagation": "División",
+    "pests": ["Cochinillas"],
+    "diseases": ["Pudrición"],
+    "pestControl": {
+      "natural": ["Alcohol"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 2-7-10",
+      "frequency": "Cada 6-8 semanas",
+      "natural": ["Compost ligero"]
+    },
+    "pruning": "Mínima",
+    "season": "Todo el año",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 25,
+    "name": "Planta Araña",
+    "commonNames": ["Chlorophytum comosum"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta fácil con hojas variegadas. Produce hijuelos.",
+    "care": {
+      "light": "Luz indirecta",
+      "water": "Riego regular",
+      "temperature": "15-25°C",
+      "humidity": "40-60%",
+      "soil": "Sustrato universal",
+      "frequency": "Cada 5-7 días"
+    },
+    "propagation": "Hijuelos",
+    "pests": ["Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 4-6 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover hijuelos",
+    "season": "Primavera-Verano",
+    "toxicity": "No tóxica"
+  },
+  {
+    "id": 26,
+    "name": "Begonia",
+    "commonNames": ["Begonia rex"],
+    "type": "floral",
+    "category": "flor",
+    "description": "Flor con hojas coloridas. Muy decorativa.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Mantener sustrato húmedo",
+      "temperature": "18-24°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato ácido",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "Por esquejes o división",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Oídio", "Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón", "Neem"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover flores marchitas",
+    "season": "Primavera-Verano",
+    "toxicity": "Ligeramente tóxica"
+  },
+  {
+    "id": 27,
+    "name": "Lirio de Paz",
+    "commonNames": ["Spathiphyllum"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta con flores blancas. Purifica el aire.",
+    "care": {
+      "light": "Luz indirecta",
+      "water": "Mantener sustrato húmedo",
+      "temperature": "18-27°C",
+      "humidity": "60-80%",
+      "soil": "Sustrato ácido",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "División",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover flores marchitas",
+    "season": "Todo el año",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 28,
+    "name": "Anthurium",
+    "commonNames": ["Flor de Flamenco"],
+    "type": "floral",
+    "category": "flor",
+    "description": "Flor exótica con espádice. Muy vistosa.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Mantener sustrato húmedo",
+      "temperature": "18-27°C",
+      "humidity": "70-90%",
+      "soil": "Sustrato ácido y poroso",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "División",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover flores marchitas",
+    "season": "Todo el año",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 29,
+    "name": "Alocasia",
+    "commonNames": ["Oreja de Elefante"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Planta con hojas grandes y vistosas.",
+    "care": {
+      "light": "Luz indirecta brillante",
+      "water": "Mantener sustrato húmedo",
+      "temperature": "18-27°C",
+      "humidity": "70-90%",
+      "soil": "Sustrato ácido",
+      "frequency": "Cada 2-3 días"
+    },
+    "propagation": "División de rizomas",
+    "pests": ["Ácaros"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Fungicida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Remover hojas muertas",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  },
+  {
+    "id": 30,
+    "name": "Filodendro",
+    "commonNames": ["Philodendron"],
+    "type": "interior",
+    "category": "tropical",
+    "description": "Trepadora vigorosa con hojas grandes.",
+    "care": {
+      "light": "Luz indirecta",
+      "water": "Riego regular",
+      "temperature": "18-27°C",
+      "humidity": "50-70%",
+      "soil": "Sustrato drenante",
+      "frequency": "Cada 5-7 días"
+    },
+    "propagation": "Por esquejes",
+    "pests": ["Ácaros", "Cochinillas"],
+    "diseases": ["Manchas foliares"],
+    "pestControl": {
+      "natural": ["Agua con jabón"],
+      "chemical": ["Insecticida"]
+    },
+    "fertilizer": {
+      "type": "NPK 10-10-10",
+      "frequency": "Cada 2-4 semanas",
+      "natural": ["Compost"]
+    },
+    "pruning": "Poda para forma",
+    "season": "Primavera-Verano",
+    "toxicity": "Tóxica para mascotas"
+  }
+]

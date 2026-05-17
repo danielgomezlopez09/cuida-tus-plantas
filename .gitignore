@@ -1,0 +1,13 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+.env
+.env.local
+.project-config.json
+pnpm-lock.yaml
+.manus-logs/
+*.log
+.DS_Store
+.watchmanconfig

@@ -1,0 +1,344 @@
+{
+  "seeds": [
+    {
+      "id": 1,
+      "name": "Tomate Cherry",
+      "type": "frutal",
+      "emoji": "🍅",
+      "color": "#FF4444",
+      "description": "Pequeño tomate dulce y jugoso",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 50,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fresa",
+      "type": "frutal",
+      "emoji": "🍓",
+      "color": "#FF69B4",
+      "description": "Fruta roja dulce y deliciosa",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 45,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 3,
+      "name": "Girasol",
+      "type": "floral",
+      "emoji": "🌻",
+      "color": "#FFD700",
+      "description": "Flor grande y amarilla que sigue el sol",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 40,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 4,
+      "name": "Rosa Roja",
+      "type": "floral",
+      "emoji": "🌹",
+      "color": "#FF0000",
+      "description": "Flor elegante y romántica",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 60,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 5,
+      "name": "Lechuga",
+      "type": "hortaliza",
+      "emoji": "🥬",
+      "color": "#228B22",
+      "description": "Verdura fresca y crujiente",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 35,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 6,
+      "name": "Pimiento",
+      "type": "hortaliza",
+      "emoji": "🫑",
+      "color": "#FF6347",
+      "description": "Verdura colorida y sabrosa",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 55,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 7,
+      "name": "Manzana",
+      "type": "frutal",
+      "emoji": "🍎",
+      "color": "#FF0000",
+      "description": "Fruta clásica y nutritiva",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 70,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 8,
+      "name": "Orquídea",
+      "type": "floral",
+      "emoji": "🌸",
+      "color": "#DA70D6",
+      "description": "Flor exótica y delicada",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 80,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 9,
+      "name": "Zanahoria",
+      "type": "hortaliza",
+      "emoji": "🥕",
+      "color": "#FF8C00",
+      "description": "Verdura anaranjada y dulce",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 38,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 10,
+      "name": "Limonero",
+      "type": "frutal",
+      "emoji": "🍋",
+      "color": "#FFFF00",
+      "description": "Árbol de frutas ácidas y refrescantes",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 65,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 11,
+      "name": "Tulipán",
+      "type": "floral",
+      "emoji": "🌷",
+      "color": "#FF1493",
+      "description": "Flor elegante y colorida",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 42,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 12,
+      "name": "Espinaca",
+      "type": "hortaliza",
+      "emoji": "🥗",
+      "color": "#006400",
+      "description": "Verdura verde y nutritiva",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 33,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 13,
+      "name": "Naranja",
+      "type": "frutal",
+      "emoji": "🍊",
+      "color": "#FF8C00",
+      "description": "Fruta cítrica dulce y jugosa",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 68,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 14,
+      "name": "Margarita",
+      "type": "floral",
+      "emoji": "🌼",
+      "color": "#FFD700",
+      "description": "Flor simple y alegre",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 38,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 15,
+      "name": "Calabaza",
+      "type": "hortaliza",
+      "emoji": "🎃",
+      "color": "#FF8C00",
+      "description": "Verdura grande y anaranjada",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 75,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 16,
+      "name": "Plátano",
+      "type": "frutal",
+      "emoji": "🍌",
+      "color": "#FFFF00",
+      "description": "Fruta tropical amarilla",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 72,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 17,
+      "name": "Lirio",
+      "type": "floral",
+      "emoji": "🌺",
+      "color": "#FF69B4",
+      "description": "Flor exótica y perfumada",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 55,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 18,
+      "name": "Tomate Beefsteak",
+      "type": "frutal",
+      "emoji": "🍅",
+      "color": "#DC143C",
+      "description": "Tomate grande y jugoso",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 58,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    },
+    {
+      "id": 19,
+      "name": "Cactus Flor",
+      "type": "floral",
+      "emoji": "🌵",
+      "color": "#FFD700",
+      "description": "Planta desértica con flor",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
+      "harvestType": "flor",
+      "coinsPerHarvest": 50,
+      "careRequirements": {
+        "wateringInterval": 16,
+        "fertilizingInterval": 96,
+        "repottingInterval": 480
+      }
+    },
+    {
+      "id": 20,
+      "name": "Fresa Silvestre",
+      "type": "frutal",
+      "emoji": "🍓",
+      "color": "#FF1493",
+      "description": "Fresa pequeña y salvaje",
+      "growthTime": 10,
+      "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
+      "harvestType": "fruto",
+      "coinsPerHarvest": 48,
+      "careRequirements": {
+        "wateringInterval": 8,
+        "fertilizingInterval": 48,
+        "repottingInterval": 240
+      }
+    }
+  ]
+}
